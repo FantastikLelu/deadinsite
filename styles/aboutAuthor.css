@@ -1,0 +1,201 @@
+.JohnAbraham {
+  background-color: rgb(246, 248, 252);
+  padding: 150px 0;
+}
+
+.JohnAbraham > img {
+  display: block;
+  margin: auto;
+}
+
+.AbrahamInfo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.AbrahamInfo dl {
+  background-color: white;
+  max-width: 520px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding: 45px;
+}
+
+.AbrahamInfo_description {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.story dt {
+  color: rgb(27, 55, 100);
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.story dd {
+  color: rgb(150, 154, 160);
+  font-size: 19px;
+  max-width: 440px;
+margin-top: 10px;
+}
+
+.story dl {
+  counter-reset: dt;
+  margin-left:100px ;
+  position: relative;
+}
+
+.story dt::before {
+  position: absolute;
+  content: counter(dt) "";
+  counter-increment: dt;
+  background-color: rgb(255, 202, 66);
+  padding: 15px 20px;
+left: -90px;
+}
+
+.myStory {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  padding: 160px 0;
+}
+
+.myStory img {
+  max-height: 650px;
+  width: 600px;
+  -webkit-box-shadow: 4px 17px 23px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 17px 23px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 17px 23px 5px rgba(34, 60, 80, 0.2);
+}
+
+.story {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* books */
+
+.shop{
+    background-color: rgb(245, 248, 252);
+}
+
+  .shop h2 {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .products {
+    display: flex;
+    gap: 70px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 150px 0;
+ 
+  }
+  
+  .product {
+    display: flex;
+  }
+  
+  .discription {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px 0;
+  }
+  
+  .discription ul {
+    display: flex;
+    gap: 45px;
+  }
+  
+  .discription h5 {
+    display: inline;
+  }
+  
+  .discription ul li:before {
+    padding-right: 0;
+  }
+
+  /* trusted */
+
+.trust {
+    padding: 130px 0;
+  }
+  
+  .trust h3 {
+    text-align: center;
+  }
+  
+  .trust ul {
+    padding-top: 60px;
+    display: flex;
+    gap: 100px;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .trust li {
+    max-width: 250px;
+  }
+  
+  .trust li,
+  .trust li h5,
+  .trust li p {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .trust li:before {
+    display: none;
+  }
+  
+  .trust img {
+    max-width: 190px;
+    max-height: 90px;
+  }
+  
+  /* contactForm */
+
+.readForFree{
+    max-width: 1300px;
+    margin: auto;
+    padding: 150px 0;
+    }
+    
+    .readForFree button{
+      background-color: rgb(27, 55, 100);
+      color: white;
+    }
+    
+    .formText p, .formText h3{
+      color:rgb(27, 55, 100) ;
+      text-align: center;
+    }
+    
+    .formText{
+      max-width: 650px;
+      margin: auto;
+    }
+    
+    form{
+      background-color: rgb(255, 202, 66);
+    padding: 120px 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    }
+    
+    .formBtn{
+      display: flex;
+      gap: 10px;
+    }

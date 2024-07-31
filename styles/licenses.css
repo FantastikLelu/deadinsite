@@ -1,0 +1,22 @@
+.license a {
+  text-decoration: none;
+  color: rgb(27, 55, 100);
+}
+
+article p{
+    margin-top: 15px;
+}
+
+article h5{
+    margin-top: 70px;
+}
+
+article{
+    max-width: 770px;
+}
+
+.license{
+    max-width: 1300px;
+    margin: auto;
+    padding: 135px 0;
+}

@@ -1,0 +1,98 @@
+.contact {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  padding: 110px 0;
+}
+
+.communication {
+  max-width: 525px;
+  margin-right: 105px;
+}
+
+.communication p {
+  margin-top: 50px;
+}
+
+.communication dt {
+  font-size: 24px;
+  margin-top: 20px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.communication dt:first-child {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.communication dd {
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  margin-left: 100px;
+}
+
+.communication dt::before {
+  content: url(../images/contact/home.png);
+  position: absolute;
+  padding: 15px 20px;
+  left: -115px;
+  top: -20px;
+}
+
+/* questions */
+
+.questions{
+background-color: rgb(245, 248, 252);
+  padding: 150px 0;
+}
+
+.questions dt {
+  margin-top: 30px;
+  font-size: 24px;
+  color: rgb(27, 55, 100);
+  border-bottom: 1px solid rgb(27, 55, 100);
+  padding-bottom: 20px;
+}
+
+.questionList dl:first-child dt:nth-child(2){
+  border-bottom: none;
+}
+
+.questionList dt:last-child{
+  border-bottom: none;
+}
+
+.questions dd {
+  margin-top: 30px;
+  font-size: 19px;
+  color: rgb(150, 154, 160);
+  border-bottom: 1px solid rgb(27, 55, 100);
+  padding-bottom: 30px;
+}
+
+.questionList{
+  display: flex;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.questions dl{
+  max-width: 610px;
+}
+
+.question{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.question h3{
+  text-align: center;
+}
+
+.questionList dt::before {
+    margin-left: -20px;
+    color: rgb(255, 202, 66);
+    content: "•";
+    padding-right: 20px;  
+}

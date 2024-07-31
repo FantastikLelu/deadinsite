@@ -1,0 +1,31 @@
+header h2{
+max-width: 635px;
+text-align: center;
+}
+
+.blog{
+    max-width: 1300px;
+    margin: auto;
+    padding: 150px 0;
+}
+
+.blog h5, .blog p{
+    margin-top: 25px;
+}
+
+.blog h4, blockquote{
+    margin-top: 40px;
+}
+
+.blog ul, .blog ol{
+    margin-top: 20px;
+}
+
+.blog li{
+    margin-left: 20px;
+}
+
+blockquote p{
+    text-align: center;
+    color: white;
+}

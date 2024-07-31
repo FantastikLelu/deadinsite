@@ -1,0 +1,71 @@
+.books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: auto;
+    max-width:1300px ;
+    padding: 150px 0;
+}
+
+.books .card{
+    max-width: 400px;
+}
+
+.books h5, .books p,.books h4, .books button, .books h6{
+    margin-top: 15px;
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardHeader h6{
+ color: rgb(255, 202, 66);
+}
+
+.books h5::before{
+    color: rgb(255, 202, 66);
+    content: "•";
+    margin-right: 15px;
+}
+
+  /* contactForm */
+
+  .readForFree{
+    max-width: 1300px;
+    margin: auto;
+    padding: 150px 0;
+    }
+    
+    .readForFree button{
+      background-color: rgb(27, 55, 100);
+      color: white;
+    }
+    
+    .formText p, .formText h3{
+      color:rgb(27, 55, 100) ;
+      text-align: center;
+    }
+    
+    .formText{
+      max-width: 650px;
+      margin: auto;
+    }
+    
+    form{
+      background-color: rgb(255, 202, 66);
+    padding: 120px 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    }
+    
+    .formBtn{
+      display: flex;
+      gap: 10px;
+    }
+
+    .card a{
+      text-decoration: none;
+    }
